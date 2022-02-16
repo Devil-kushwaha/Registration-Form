@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Assets/Scenery.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_box {
+    width: 90%;
+    max-width: 500px;
+    height: 60vh;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button_box {
+    width: 300px;
+    margin: 35px auto;
+    box-shadow: 0 0 20px 9px rgb(255, 150, 50);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.toggle-btn {
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    position: relative;
+}
+
+#btn {
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, rgb(255, 150, 50), rgb(202, 40, 18));
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons img {
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 15px;
+    box-shadow: 0 0 20px 2px #7f7f7f3d;
+    cursor: pointer;
+}
+
+.input-group {
+    margin: 35px 25px;
+    padding: 20px;
+    transition: 0.5s;
+    position: absolute;
+    width: 360px;
+}
+
+.input-field {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+    border: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+    background: transparent;
+}
+
+.checkbox {
+    margin: 30px 0;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+#check {
+    font-size: 21px;
+    color: rgb(59, 59, 59);
+}
+
+
+/* .sub-btn {
+    text-align: center;
+} */
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: linear-gradient(to right, rgb(255, 150, 50), rgb(202, 40, 18));
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+#logIn {
+    left: 30px;
+}
+
+#register {
+    left: 500px;
+}
